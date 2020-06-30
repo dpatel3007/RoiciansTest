@@ -9,6 +9,7 @@
           <include name="OtherLeftTest"/>
           <include name="tearDown"/>
           <include name="SetUp"/>
+          <include name="FooterReadTest"/>
         </methods>
       </class> <!-- R_tests.R_HomePageTest -->
     </classes>

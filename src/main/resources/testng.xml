@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Roicians Website Project">
+
+	<listeners>
+		<listener
+			class-name="ExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+
+	<test name="Roicians Test Cases">
+		<classes>
+			<class name="R_tests.R_HomePageTest"></class>
+			<class name="R_tests.R_EnquireNowTest"></class>
+			<class name="R_tests.R_CareerTest"></class>
+
+		</classes>
+	</test>
+</suite>
