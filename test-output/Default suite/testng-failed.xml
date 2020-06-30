@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="R_tests.R_CareerTest">
+      <class name="R_tests.R_HomePageTest">
         <methods>
+          <include name="OtherRightTest"/>
+          <include name="OtherLeftTest"/>
           <include name="tearDown"/>
           <include name="SetUp"/>
-          <include name="validCareerFormTest"/>
         </methods>
-      </class> <!-- R_tests.R_CareerTest -->
+      </class> <!-- R_tests.R_HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

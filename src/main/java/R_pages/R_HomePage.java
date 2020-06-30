@@ -115,10 +115,10 @@ public class R_HomePage extends R_TestBase {
 	@FindBy(xpath = "//a[@class='bx-next']")
 	WebElement EventRight;
 	
-	@FindBy(xpath = "//a[@class='text-white font-14']")
+	@FindBy(xpath = "//a[@class='text-theme-colored font-14']")
 	WebElement FooterRead;
 	
-	@FindBy(xpath = "//input[@id='mce-EMAIL']")
+	@FindBy(xpath = "//input[@id='subscribeEmail']")
 	WebElement EmailInput;
 	
 	@FindBy(xpath = "//i[@class='fa fa-paper-plane-o text-white']")
