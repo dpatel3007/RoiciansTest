@@ -31,30 +31,55 @@ public class R_HomePageTest extends R_TestBase {
 //	}
 //	
 
-//	@Test
-//	public void HeaderFb() throws InterruptedException {
-//		r_homepage.verifyHeaderFb();
-//	}
-//	
-//	@Test
-//	public void HeaderTw() throws InterruptedException {
-//		r_homepage.verifyHeaderTw();
-//	}
-//	
-//	@Test
-//	public void HeaderDr() throws InterruptedException {
-//		r_homepage.verifyHeaderDr();
-//	}
-//	
-//	@Test
-//	public void HeaderIn() throws InterruptedException {
-//		r_homepage.verifyHeaderIn();
-//	}
-//	
-//	@Test
-//	public void HeaderLi() throws InterruptedException {
-//		r_homepage.verifyHeaderLi();
-//	}
+	@Test
+	public void HeaderFbTest() throws InterruptedException {
+		r_homepage.verifyHeaderFb();
+	}
+	
+	@Test
+	public void HeaderTwTest() throws InterruptedException {
+		r_homepage.verifyHeaderTw();
+	}
+	
+	@Test
+	public void HeaderYoTest() throws InterruptedException {
+		r_homepage.verifyHeaderDr();
+	}
+	
+	@Test
+	public void HeaderInTest() throws InterruptedException {
+		r_homepage.verifyHeaderIn();
+	}
+	
+	@Test
+	public void HeaderLiTest() throws InterruptedException {
+		r_homepage.verifyHeaderLi();
+	}
+	
+	@Test
+	public void FooterFbTest() throws InterruptedException {
+		r_homepage.verifyFooterFb();
+	}
+	
+	@Test
+	public void FooterTwTest() throws InterruptedException {
+		r_homepage.verifyFooterTw();
+	}
+	
+	@Test
+	public void FooterYoTest() throws InterruptedException {
+		r_homepage.verifyFooterYo();
+	}
+	
+	@Test
+	public void FooterInTest() throws InterruptedException {
+		r_homepage.verifyFooterIn();
+	}
+	
+	@Test
+	public void FooterLiTest() throws InterruptedException {
+		r_homepage.verifyFooterLi();
+	}
 	
 //	@Test
 //	public void HeaderPhoneTest() throws InterruptedException {

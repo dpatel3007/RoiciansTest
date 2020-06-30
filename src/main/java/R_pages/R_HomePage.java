@@ -40,13 +40,13 @@ public class R_HomePage extends R_TestBase {
 	@FindBy(xpath = "//i[@class='fa fa-twitter text-white']")
 	WebElement HeaderTw;
 
-	@FindBy(xpath = "//i[@class='fa fa-dribbble text-white']")
-	WebElement HeaderDr;
+	@FindBy(xpath = "//i[@class='fa fa-youtube text-white']")
+	WebElement HeaderYo;
 
 	@FindBy(xpath = "//i[@class='fa fa-instagram text-white']")
 	WebElement HeaderIn;
 
-	@FindBy(xpath = "//i[@class='fa fa-instagram text-white']")
+	@FindBy(xpath = "//i[@class='fa fa-linkedin text-white']")
 	WebElement HeaderLi;
 
 	@FindBy(xpath = "//a[@class='menuzord-brand pull-left flip']//img")
@@ -124,6 +124,23 @@ public class R_HomePage extends R_TestBase {
 	@FindBy(xpath = "//i[@class='fa fa-paper-plane-o text-white']")
 	WebElement EmailSend;
 	
+	@FindBy(xpath = "//i[@class='fa fa-facebook']")
+	WebElement FooterFb;
+	
+	@FindBy(xpath = "//i[@class='fa fa-twitter']")
+	WebElement FooterTw;
+	
+	@FindBy(xpath = "//i[@class='fa fa-youtube']")
+	WebElement FooterYo;
+	
+	@FindBy(xpath = "//i[@class='fa fa-instagram']")
+	WebElement FooterIn;
+	
+	@FindBy(xpath = "//i[@class='fa fa-linkedin']")
+	WebElement FooterLi;
+	
+	
+	
 	
 //	@FindBy(xpath = "//a[@class='text-theme-colored font-13 mb-30")
 //	WebElement Play;
@@ -159,27 +176,103 @@ public class R_HomePage extends R_TestBase {
 
 	public void verifyHeaderFb() throws InterruptedException {
 		HeaderFb.click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
+		
 	}
 
 	public void verifyHeaderTw() throws InterruptedException {
 		HeaderTw.click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
 	}
 
 	public void verifyHeaderDr() throws InterruptedException {
-		HeaderDr.click();
-		Thread.sleep(2000);
+		HeaderYo.click();
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
 	}
 
 	public void verifyHeaderIn() throws InterruptedException {
 		HeaderIn.click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
 	}
 
 	public void verifyHeaderLi() throws InterruptedException {
 		HeaderLi.click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
+	}
+	
+	public void verifyFooterFb() throws InterruptedException {
+		FooterFb.click();
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
+	}
+	
+	public void verifyFooterTw() throws InterruptedException {
+		FooterTw.click();
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
+	}
+	
+	public void verifyFooterYo() throws InterruptedException {
+		HeaderYo.click();
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
+	}
+	
+	public void verifyFooterIn() throws InterruptedException {
+		FooterIn.click();
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
+	}
+	
+	public void verifyFooterLi() throws InterruptedException {
+		FooterLi.click();
+		Thread.sleep(5000);
+		for (String winHandle : driver.getWindowHandles()) {//Switch command to new window 
+		    driver.switchTo().window(winHandle);
+		    String title=driver.getTitle();
+		    System.out.println(title);
+		}
 	}
 	
 	public void verifyHeaderPhone() throws InterruptedException {
